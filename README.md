@@ -16,7 +16,8 @@
   - Antes de seguir os passos listados abaixo, deve-se primeiramente seguir os passos do arquivo README do repositório "AmazonIA-API-";
 
   - Baixe o projeto;
-  - Abra no editor de código;
+  - Envie a pasta AmazonIA para a Área de Trabalho;
+  - Abra a pasta no editor de código;
   - Execute o seguinte comando no terminal (sem as aspas):
     - "npm start";
   - Pronto, o arquivo já está executando.
