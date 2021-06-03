@@ -8,6 +8,18 @@
   Foi disponibilizado 72 horas para a realização do projeto.
 
   A ideia para o projeto foi desenvolver uma aplicação de doação de animais de estimação, utilizando os requisitos técnicos propostos pelo desafio. Onde o usuário poderia visualizar os pets disponíveis para adoção, cadastrar os pets, podendo editar suas informações ou remover o pet. 
+  
+-----------------
+  
+-- INSTRUÇÕES DE EXECUÇÃO DO PROJETO --
+
+  - Baixe o projeto;
+  - Abrir no editor de código;
+  - Execute o seguinte comando no terminal (sem as aspas):
+    - "npm start";
+  - Pronto, o arquivo já está executando.
+
+-----------------
 
 Dentro do prazo, foi possível:
 
