@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="donate.css">
+    <link rel="icon" href="/media/paw.png" type="image/gif" sizes="16x16"> 
+    <title>Doe um Pet</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="nav">
+        <div class="logo">
+            <img src="/media/paw.png">
+            <span>AmazonIA</span>
+        </div>
+        <a href="index.html"><div class="adopt">
+            <img src="/media/adopt.png">
+            <span>ADOTE UM PET</span>
+        </div></a>
+        <div class="user">
+            <img src="/media/user.png">
+            <span>USUÁRIO</span>
+            <div>
+                <a href="signin.html"><img src="/media/logout.png"></a>
+                <div class="logout">
+                    <span>SAIR</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Register a Pet -->
+    <form>
+        <div>
+            <p class="titlePet">CADASTRO DO PET:</p>
+            <p class="titleDonator">CADASTRO DO DOADOR:</p>
+        </div>
+        <div class="register">
+            <div class="textFields">
+                <input type="text" id="name" placeholder="Nome do Pet">
+                <input type="text" id="species" placeholder="Espécie">
+                <input type="text" id="sex" placeholder="Sexo">
+                <input type="text" id="age" placeholder="Idade">
+                <input type="text" id="breed" placeholder="Raça">
+                <input type="text" id="url" placeholder="URL da Foto do Pet">
+            </div>
+            <div class="details">
+                <textarea id="description" placeholder="Descrição do Pet"></textarea>
+                <textarea id="observation" placeholder="Observações"></textarea>
+            </div>
+            <div class="donator">
+                <input type="text" id="nameDonator" placeholder="Nome do Doador">
+                <input type="text" id="phone" placeholder="Telefone">
+                <input type="text" id="adress" placeholder="Endereço">
+                <textarea id="descriptionDonator" placeholder="Descrição do Doador"></textarea>
+                <div class="btn">
+                    <input type="button" id="btnRegister" value="CADASTRAR">
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <script src="/src/donate.js"></script>
+    
+</body>
+</html>

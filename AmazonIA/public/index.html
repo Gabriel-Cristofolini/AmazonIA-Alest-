@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="/public/media/paw.png" type="image/gif" sizes="16x16"> 
+    <title>Minhas Adoções</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="nav">
+        <div class="logo">
+            <img src="/media/paw.png">
+            <span>AmazonIA</span>
+        </div>
+        <a href="index.html"><div class="adopt">
+            <img src="/media/adopt.png">
+            <span>ADOTE UM PET</span>
+        </div></a>
+        <a href="donate.html"><div class="donate">
+            <img src="/media/give.png">
+            <span>DOE UM PET</span>
+        </div></a>
+        <div class="user">
+            <img src="/media/user.png">
+            <span>USUÁRIO</span>
+            <div>
+                <a href="signin.html"><img src="/media/logout.png"></a>
+                <div class="logout">
+                    <span>SAIR</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Add Pet -->
+    <div id="tabList">
+        <div class="settings">
+            <a href="donate.html"><div class="btnSettings">
+                <img src="/media/add.png">
+                <span>Doar Pet</span>
+            </div></a>
+        </div>
+        <!-- List of Pets -->
+        <div class="petCardBox" id="petCardBox">
+            
+        </div>
+    </div>
+    <!-- Edit or Remove Pet -->
+    <div id="tabInfo" class="displayNone">
+        <div class="petInfo">
+            <!-- Pet Informations -->
+            <div class="specificInfo">
+                <img src="https://catsmart.com.sg/image/catalog/Loving-Cat.jpg">
+                <div class="description">
+                    <span>
+                        O gatinho já é vacinado.
+                    </span>
+                </div>
+                <div class="observation">
+                    <span>
+                        Não posso mais ficar com ele pois vou me mudar.
+                    </span>
+                </div>
+            </div>
+            <div class="infoSettings">
+                <div class="globalInfo">
+                    <div class="petName">
+                        <span>Mitsy</span>
+                    </div>
+                    <div class="iconInfo">
+                        <span>Dados do Pet:</span>
+                        <div>
+                            <img src="/media/dna.png">
+                            <span>Animal: Gato</span>
+                        </div>
+                        <div>
+                            <img src="/media/gender.png">
+                            <span>Sexo: Macho</span>
+                        </div>
+                        <div>
+                            <img src="/media/clock.png">
+                            <span>Idade: 2 anos</span>
+                        </div>
+                        <div>
+                            <img src="/media/breed.png">
+                            <span>Raça: Vira-Lata</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Donator Information -->
+                <div class="donatorInfo">
+                    <div class="personalData">
+                        <span>Nina</span>
+                        <span>(47)991253446</span>
+                        <span>São Paulo/SP</span>
+                    </div>
+                    <div class="aboutDonator">
+                        <span>Olá pessoal, eu sou a Nina, tenho 30 anos de idade, sou casada e não tenho filhos. Trabalho com planejamento de campanhas para mídias digitais há 10 anos. Minha trajetória na área começou como redator de blogs, mas com o tempo descobri que o meu maior interesse era planejamento de marketing. Criei minha própria agência em 2012, chego a atender 120 clientes das áreas de educação, turismo e saúde. Além disso, também lidero uma equipe de 15 pessoas no meu escritório. Devido minha mudança de cidade não tenho mais como cuidar da Mitsy e procuro um lar que dê tanto amor e carinho quanto eu.</span>
+                    </div>
+                </div>
+                <!-- Remove and Edit Pet -->
+                <div class="settingsBox">
+                    <div class="settings">
+                        <div class="btnSettings">
+                            <img src="/media/edit.png">
+                            <span>Editar Pet</span>
+                        </div>
+                    </div>
+                    <div class="settings">
+                        <div class="btnSettings">
+                            <img src="/media/minus.png">
+                            <span>Remover Pet</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/src/index.js" type="module"></script>
+    <script>
+        function changeTab() {
+            let tabList = document.querySelector("#tabList");
+            let tabInfo = document.querySelector("#tabInfo");
+
+            tabList.classList.toggle("displayNone");
+            tabInfo.classList.toggle("displayNone");
+        }
+    </script>
+
+</body>
+</html>
