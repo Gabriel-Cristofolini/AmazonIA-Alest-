@@ -14,7 +14,7 @@
 -- INSTRUÇÕES DE EXECUÇÃO DO PROJETO --
 
   - Baixe o projeto;
-  - Abrir no editor de código;
+  - Abra no editor de código;
   - Execute o seguinte comando no terminal (sem as aspas):
     - "npm start";
   - Pronto, o arquivo já está executando.
